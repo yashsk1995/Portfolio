@@ -144,7 +144,7 @@ h4 {
     border-radius: 50%;
 }
 .profile-pic {
-  display: inline;
+  /* display: inline; */
   margin: 0 auto;
   margin-left: -25%; 
   height: 100%;
