@@ -576,14 +576,32 @@ figure.effect-layla:hover img {
         padding: 30px;
         /* text-transform: uppercase; */
       }
-      .profile-pic {
-        display: inline;
-        /* margin: 0 auto; */
-        margin-left: -25%; 
-        height: 100%;
-        width: 100%;
+      .image-cropper {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
         border-radius: 50%;
+    }
+      
+
+}
+@media screen and (max-width : 800px) and (min-width : 401px)
+{
+    h5 {
+        font-weight: 100;
+        font-size:15px;
+        margin: 0;
+        padding: 30px;
+        /* text-transform: uppercase; */
       }
+      .image-cropper {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
       
 
 }
