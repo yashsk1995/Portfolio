@@ -210,7 +210,10 @@ footer .glyphicon {
     font-size: 40px;
     color: white;
 }
-
+.image-skills-symbols3{
+    max-width: 5em;
+    font-size: 20px;
+}
 .devicon-git-plain {
     max-width: 2em;
   }
