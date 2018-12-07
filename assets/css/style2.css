@@ -170,8 +170,9 @@ footer .glyphicon {
 
 }
 .div-list-skills{
-    background:#40cde6d7;
+    /* background:#90a6aad7; */
     padding: 10px;
+    color: white;
 }
 .skill-header1{
     color: white;
@@ -226,7 +227,7 @@ footer .glyphicon {
 .text-skills{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #303030;
+    color: white;
 }
 .img-about{
     border-radius: 50%;
@@ -239,6 +240,7 @@ footer .glyphicon {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+margin-top: 50px;
 }
 .profile-pic {
   /* display: inline; */
@@ -246,6 +248,7 @@ footer .glyphicon {
   margin-left: -25%; 
   height: 100%;
   width: auto;
+  
 }
 .textdis{
     height: 600px;
@@ -419,6 +422,61 @@ h5 {
             transform: translateY(100%);
   }
 
+  .btn-wrapper {
+    width: 290px;
+    height: 110px;
+    position: relative;
+    margin: 40px auto 0;
+  }
+  .btn-wrapper:hover .btn-inner {
+    top: -4px;
+    transform: scale(1, 1);
+    cursor: pointer;
+  }
+  .btn-wrapper__container {
+    border-bottom: 2px solid #15B5E2;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+  }
+  .btn-wrapper__container:before, .btn-wrapper__container:after {
+    border-bottom: 2px solid #15B5E2;
+    width: 96%;
+    left: 2%;
+    bottom: -8px;
+    content: "";
+    position: absolute;
+  }
+  .btn-wrapper__container:after {
+    width: 92%;
+    left: 4%;
+    bottom: -14px;
+  }
+  .btn-wrapper__container .btn-inner {
+    width: 104.2%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: -2.1%;
+    border: 2px solid #15B5E2;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    background: #10131C;
+    transform: scale(0.96, 0.96);
+    transition: all .3s;
+    z-index: 4;
+  }
+  .btn-wrapper__container .btn-inner__text {
+    text-decoration: none;
+    color: #15B5E2;
+  }
+  
 
 .grid {
     position: relative;
@@ -498,8 +556,15 @@ h5 {
 .grid figure p {
     margin: 0;
     color: white;
+    font-style: italic ;
+    font-weight: bold;
 }
-
+.contact-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #303030;
+    text-align: center;
+}
 .grid figure p {
     letter-spacing: 1px;
     font-size: 68.5%;
