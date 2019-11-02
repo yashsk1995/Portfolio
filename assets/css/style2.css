@@ -140,7 +140,7 @@ footer .glyphicon {
 }
 .about-text2{
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'arial', Tahoma, Geneva, Verdana, sans-serif;
     color: #303030;
 }
 
@@ -190,6 +190,7 @@ footer .glyphicon {
 .skill-header6{
     color: rgb(39, 27, 27);
     font-size: 26px;
+    padding-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     /* text-shadow: 2px 2px lightblue; */
@@ -258,6 +259,10 @@ footer .glyphicon {
     border-radius: 50%;
 margin-top: 50px;
 }
+
+.image-cropper:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 .profile-pic {
   /* display: inline; */
   margin: 0 auto;
@@ -270,7 +275,10 @@ margin-top: 50px;
     height: 600px;
 }
 .jumbotron {
-    background-color: #303030;
+    /* background-color: #303030; */
+    background-image: url("../Images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -280,6 +288,11 @@ margin-top: 50px;
 }
 .bg-grey {
     background-color: #f6f6f6;
+}
+
+.bg-grey2 {
+    background-color: #303030;
+    color: white;
 }
 .logo-small {
     color: #303030;
@@ -549,9 +562,9 @@ h5 {
     height: 100%;
 }
 .bor-dox{
-    -moz-box-shadow:    3px 3px 5px 6px rgb(109, 99, 99);
-    -webkit-box-shadow: 3px 3px 5px 6px rgb(109, 99, 99);
-    box-shadow:         3px 3px 5px 6px rgb(109, 99, 99);
+    -moz-box-shadow:    3px 3px 5px 6px rgb(158, 149, 149);
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(158, 149, 149);
+    box-shadow:         3px 3px 5px 6px rgb(158, 149, 149);
 
 }
 
@@ -584,7 +597,7 @@ h5 {
 .contact-text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
-    color: #303030;
+    color:white;
     text-align: center;
 }
 .grid figure p {
