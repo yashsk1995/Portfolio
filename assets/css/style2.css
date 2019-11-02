@@ -82,7 +82,7 @@ h4 {
 }
 .panel-heading {
     color: #fff !important;
-    /* background-color: #f4511e !important; */
+    background-color: #f4511e !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -276,7 +276,7 @@ margin-top: 50px;
 }
 .jumbotron {
     /* background-color: #303030; */
-    background-image: url("/assets/Images/1.jpg");
+    background-image: url("../Images/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
